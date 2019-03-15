@@ -84,6 +84,15 @@ sitemap:
 ## Themes: https://hexo.io/themes/
 theme: next
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit:
+  content_limit_delim: ' '
+
 search:
   path: search.xml
   field: post
