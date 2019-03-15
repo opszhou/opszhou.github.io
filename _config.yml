@@ -75,6 +75,13 @@ pagination_dir: page
 Plugins:
   - hexo-generator-baidu-sitemap
   - hexo-generator-sitemap
+  - hexo-generator-feed
+
+# Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
 
 baidusitemap:
   path: baidusitemap.xml
@@ -83,15 +90,6 @@ sitemap:
 
 ## Themes: https://hexo.io/themes/
 theme: next
-
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit:
-  content_limit_delim: ' '
 
 search:
   path: search.xml
