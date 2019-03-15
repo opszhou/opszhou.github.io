@@ -85,6 +85,6 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:opszhou/opszhou.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  repo: https://gh_token@github.com/opszhou/opszhou.github.io.git
   branch: master #published
   message:
