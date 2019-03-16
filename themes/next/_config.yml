@@ -431,7 +431,7 @@ gitment:
 # Warning: JiaThis does not support https.
 #jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
-jiathis: true
+#jiathis: false
 #add_this_id:
 
 # Share
