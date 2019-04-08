@@ -364,9 +364,18 @@ passage_end_tag:
 
 # Disqus
 disqus:
-  enable: false
-  shortname: opszhou
+  enable: true
+  shortname: atvirt
   count: true
+
+# for DisqusJS, https://github.com/SukkaW/DisqusJS
+# disqus:
+#     enable: true
+#     shortname: #你的shortname
+#     api: #https://disqus.com/api/
+#     apikey: #你申请的public api key
+#     admin: #你的名字
+#     adminLabel: #你的特别标识
 
 # Hypercomments
 #hypercomments_id:
